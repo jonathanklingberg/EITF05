@@ -4,7 +4,7 @@ EITF05
 Webshop
 ======
 /Users/Jonathan/sites/platslageri/wordpress
-	Rootpass: 'r00tpass';
+	Rootpass: 'rootpass';
 	CREATE USER 'webuser' IDENTIFIED BY 't0ps3cr3tp4ssw0rd';
 	GRANT SELECT, INSERT, UPDATE, DELETE ON webshop.* TO 'webuser'@'localhost';
 	CREATE  TABLE `webshop`.`members` (
